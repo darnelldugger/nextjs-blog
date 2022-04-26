@@ -1,5 +1,5 @@
 ---
-title: 'My Portfolio Website'
+title: 'My Portfolio'
 date: '2022-04-26'
 ---
 
