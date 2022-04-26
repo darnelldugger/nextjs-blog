@@ -23,11 +23,7 @@ export default function Home({ allPostsData }) {
         <p>I am a Full Stack Web Developer with 6 years of military experience utilizing the command line to maintain data and network operations. My passion for technology has led me to software development and I hope to use my  experiences to build solutions and create meaningful and useful applications for end users"
         </p>
         <p>
-          Skills : Javascript, Python, React, HTML , MongoDB, Postgresql, Node.js, Express, Flask, JSX, Jinja, CSS, MUI
-        </p>
-        <p>
-          (This is a sample website - you’ll be building a site like this on{' '}
-          <a href="https://nextjs.org/learn">our Next.js tutorial</a>.)
+          Skills : Javascript, Python, React, HTML , MongoDB, Postgresql, Next.js, Node.js, Express.js, Flask, JSX, Jinja, CSS, MUI
         </p>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
@@ -35,11 +31,13 @@ export default function Home({ allPostsData }) {
         <ul className={utilStyles.list}>
           {allPostsData.map(({ id, date, title }) => (
             <li className={utilStyles.listItem} key={id}>
-              {title}
+              <Link href={`/posts/${id}`}>
+                <a>{title}</a>
+              </Link>
               <br />
-              {id}
-              <br />
-              {date}
+              <small className={utilStyles.lightText}>
+                <Date dateString={date} />
+              </small>
             </li>
           ))}
         </ul>
