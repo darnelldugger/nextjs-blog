@@ -6,6 +6,7 @@ import { getSortedPostsData } from '../lib/posts'
 import Link from 'next/link'
 import Date from '../components/date'
 import Skills from '../components/skills'
+import AboutMe from '../components/about-me'
 
 export async function getStaticProps() {
   const allPostsData = getSortedPostsData()
@@ -21,11 +22,10 @@ export default function Home({ allPostsData }) {
       <Head>
         <title>{siteTitle}</title>
       </Head>
-      <section className={utilStyles.headingMd}>
-        <p className={utilStyles.whiteText}>I am a Full Stack Web Developer with 6 years of military experience utilizing the command line to maintain data and network operations. My passion for technology has led me to software development and I hope to use my  experiences to build solutions and create meaningful and useful applications for end users.
-        </p>
-        <Skills />
+      <section className={`${utilStyles.headingMd} ${utilStyles.aboutMe}`}>
+        <AboutMe/>
         </section>
+        <Skills />
         <section className={`${utilStyles.headingMd} ${utilStyles.padding1px} ${utilStyles.lightBackground}`}>
           <h2 className={utilStyles.headingLg}>Software Projects</h2>
           <ul className={utilStyles.list}>
