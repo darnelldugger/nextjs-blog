@@ -2,7 +2,7 @@ import utilStyles from '../styles/utils.module.css'
 
 export default function Skills() {
   return (
-    <>
+    <section className={utilStyles.whiteBackground}>
       <h2 className={utilStyles.headingLg}>Skills
       </h2>
       <img
@@ -26,6 +26,111 @@ export default function Skills() {
         height={40}
         width={108}
       />
-    </>
+      <img
+        priority
+        src="https://img.shields.io/badge/Anaconda-%2344A833.svg?style=for-the-badge&logo=anaconda&logoColor=white"
+        className={utilStyles.borderCircle}
+        height={40}
+        width={108}
+      />
+      <img
+        priority
+        src="https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white)"
+        className={utilStyles.borderCircle}
+        height={40}
+        width={108}
+      />
+      <img
+        priority
+        src="https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB"
+        className={utilStyles.borderCircle}
+        height={40}
+        width={108}
+      />
+      <img
+        priority
+        src="https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white"
+        className={utilStyles.borderCircle}
+        height={40}
+        width={108}
+      />
+      <img
+        priority
+        src="https://img.shields.io/badge/jquery-%230769AD.svg?style=for-the-badge&logo=jquery&logoColor=white"
+        className={utilStyles.borderCircle}
+        height={40}
+        width={108}
+      />
+      <img
+        priority
+        src="https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=JSON%20web%20tokens"
+        className={utilStyles.borderCircle}
+        height={40}
+        width={108}
+      />
+      <img
+        priority
+        src="https://img.shields.io/badge/MUI-%230081CB.svg?style=for-the-badge&logo=mui&logoColor=white"
+        className={utilStyles.borderCircle}
+        height={40}
+        width={108}
+      />
+      <img
+        priority
+        src="https://img.shields.io/badge/NPM-%23000000.svg?style=for-the-badge&logo=npm&logoColor=white"
+        className={utilStyles.borderCircle}
+        height={40}
+        width={108}
+      />
+      <img
+        priority
+        src="https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white"
+        className={utilStyles.borderCircle}
+        height={40}
+        width={108}
+      />
+      <img
+        priority
+        src="https://img.shields.io/badge/Node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white"
+        className={utilStyles.borderCircle}
+        height={40}
+        width={108}
+      />
+      <img
+        priority
+        src="https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white"
+        className={utilStyles.borderCircle}
+        height={40}
+        width={108}
+      />
+      <img
+        priority
+        src="https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white"
+        className={utilStyles.borderCircle}
+        height={40}
+        width={108}
+      />
+      <img
+        priority
+        src="https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white"
+        className={utilStyles.borderCircle}
+        height={40}
+        width={108}
+      />
+      <img
+        priority
+        src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white"
+        className={utilStyles.borderCircle}
+        height={40}
+        width={108}
+      />
+      <img
+        priority
+        src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)"
+        className={utilStyles.borderCircle}
+        height={40}
+        width={108}
+      />
+    </section>
   )
 }

@@ -59,5 +59,19 @@
 .lightBackground {
   background-color: rgb(34, 196, 196);
   padding: 1rem;
-  border-radius: 1rem;
+  border-radius: 0 0 1rem 1rem;
+}
+.whiteBackground {
+  background-color: white;
+  padding: 1rem;
+  border-bottom-style: solid;
+  border-radius: 1rem 1rem 0 0;
+}
+
+.whiteText {
+  color: white;
+  font-weight: 700;
+  font-size: x-large;
+  padding: 1rem;
+  
 }
