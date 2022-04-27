@@ -5,6 +5,7 @@ export default function Skills() {
     <section className={utilStyles.whiteBackground}>
       <h2 className={utilStyles.headingLg}>Skills
       </h2>
+      <p>Languages</p>
       <img
         priority
         src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB"
@@ -26,6 +27,21 @@ export default function Skills() {
         height={40}
         width={108}
       />
+        <img
+          priority
+          src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white"
+          className={utilStyles.borderCircle}
+          height={40}
+          width={108}
+        />
+        <img
+          priority
+          src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)"
+          className={utilStyles.borderCircle}
+          height={40}
+          width={108}
+        />
+      <p>Libraries & Frameworks</p>
       <img
         priority
         src="https://img.shields.io/badge/Anaconda-%2344A833.svg?style=for-the-badge&logo=anaconda&logoColor=white"
@@ -96,6 +112,7 @@ export default function Skills() {
         height={40}
         width={108}
       />
+      <p>Databases</p>
       <img
         priority
         src="https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white"
@@ -110,6 +127,7 @@ export default function Skills() {
         height={40}
         width={108}
       />
+      <p>Version Control</p>
       <img
         priority
         src="https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white"
@@ -119,14 +137,7 @@ export default function Skills() {
       />
       <img
         priority
-        src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white"
-        className={utilStyles.borderCircle}
-        height={40}
-        width={108}
-      />
-      <img
-        priority
-        src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)"
+        src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white"
         className={utilStyles.borderCircle}
         height={40}
         width={108}
