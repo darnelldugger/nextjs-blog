@@ -55,3 +55,9 @@
 .lightText {
   color: #666;
 }
+
+.lightBackground {
+  background-color: rgb(34, 196, 196);
+  padding: 1rem;
+  border-radius: 1rem;
+}

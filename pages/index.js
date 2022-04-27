@@ -22,11 +22,11 @@ export default function Home({ allPostsData }) {
         <title>{siteTitle}</title>
       </Head>
       <section className={utilStyles.headingMd}>
-        <p>I am a Full Stack Web Developer with 6 years of military experience utilizing the command line to maintain data and network operations. My passion for technology has led me to software development and I hope to use my  experiences to build solutions and create meaningful and useful applications for end users"
+        <p>I am a Full Stack Web Developer with 6 years of military experience utilizing the command line to maintain data and network operations. My passion for technology has led me to software development and I hope to use my  experiences to build solutions and create meaningful and useful applications for end users.
         </p>
         <Skills />
         </section>
-        <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
+        <section className={`${utilStyles.headingMd} ${utilStyles.padding1px} ${utilStyles.lightBackground}`}>
           <h2 className={utilStyles.headingLg}>Software Projects</h2>
           <ul className={utilStyles.list}>
             {allPostsData.map(({ id, date, title }) => (
