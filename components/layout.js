@@ -5,6 +5,8 @@ import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link'
 import Resume from './resume'
 import Contact from './contact'
+import LinkedIn from './linkedin'
+import Github from './github'
 const name = 'Darnell Dugger'
 export const siteTitle = 'Darnell Dugger - Portfolio Website'
 
@@ -13,6 +15,7 @@ export default function Layout({ children, home }) {
     <>
       <div className={styles.container}>
         <Head>
+
           <link rel="icon" href="/favicon.ico" />
           <meta
             name="description"
@@ -26,6 +29,8 @@ export default function Layout({ children, home }) {
           />
           <meta name="og:title" content={siteTitle} />
           <meta name="twitter:card" content="summary_large_image" />
+          <script src="https://kit.fontawesome.com/219a77197a.js" crossorigin="anonymous"></script>
+          <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"></link>
         </Head>
         <header className={styles.header}>
           {home ? (
@@ -42,6 +47,8 @@ export default function Layout({ children, home }) {
               <ul className={utilStyles.listHeader}>
                 <li><Resume/></li>
                 <li><Contact/></li>
+                <li><LinkedIn/></li>
+                <li><Github/></li>
               </ul>
             </>
           ) : (

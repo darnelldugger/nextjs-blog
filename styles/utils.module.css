@@ -51,22 +51,16 @@
   list-style: none;
   padding: 0;
   margin: 0;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-row-gap: 10px;
-  grid-column-gap: 10px;
+  display: flex;
 }
 
 .listHeader li {
-  border-style: solid;
-  padding: 0 10px 0 10px;
-  border-radius: 10px;
-  border-width: 2px;
+  padding: 0 1rem 0 0;
   
 }
 
 .listHeader li:hover {
-  background-color: white;
+  
 }
 
 .listItem {
