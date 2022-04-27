@@ -3,6 +3,8 @@ import Image from 'next/image'
 import styles from './layout.module.css'
 import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link'
+import Resume from './resume'
+import Contact from './contact'
 const name = 'Darnell Dugger'
 export const siteTitle = 'Darnell Dugger - Portfolio Website'
 
@@ -38,8 +40,8 @@ export default function Layout({ children, home }) {
               />
               <h1 className={utilStyles.heading2Xl}>{name}</h1>
               <ul className={utilStyles.listHeader}>
-                <li>Resume</li>
-                <li>Contact</li>
+                <li><Resume/></li>
+                <li><Contact/></li>
               </ul>
             </>
           ) : (
@@ -61,6 +63,10 @@ export default function Layout({ children, home }) {
                   <a className={utilStyles.colorInherit}>{name}</a>
                 </Link>
               </h2>
+              <ul className={utilStyles.listHeader}>
+                <li><Resume/></li>
+                <li><Contact/></li>
+              </ul>
             </>
           )}
         </header>
