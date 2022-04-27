@@ -73,6 +73,8 @@ export default function Layout({ children, home }) {
               <ul className={utilStyles.listHeader}>
                 <li><Resume/></li>
                 <li><Contact/></li>
+                <li><LinkedIn/></li>
+                <li><Github/></li>
               </ul>
             </>
           )}
