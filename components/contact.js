@@ -1,7 +1,14 @@
+import utilStyles from '../styles/utils.module.css'
+
 export default function Contact() {
   return (
     <>
-          <a href="mailto:darnelldugger@gmail.com">Contact Me</a>
+          <a 
+          className={utilStyles.aColorBlk}
+          href="mailto:darnelldugger@gmail.com"
+          >
+          Contact Me
+          </a>
     </>
   )
 }

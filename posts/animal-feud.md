@@ -1,5 +1,5 @@
 ---
-title: 'Animal Fued'
+title: 'Animal Feud'
 date: '2022-03-15'
 ---
 
