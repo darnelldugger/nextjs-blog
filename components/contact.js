@@ -10,7 +10,7 @@ export default function Contact() {
         href="mailto:darnelldugger@gmail.com"
       >
        <HiOutlineMail
-        className={utilStyles.headingLg}
+        className={utilStyles.iconXl}
         />
       </a>
       

@@ -10,7 +10,7 @@ export default function Github() {
         href="https://github.com/darnelldugger"
       >
         <BsGithub
-          className={utilStyles.headingLg}
+          className={utilStyles.iconXl}
         />
       </a>
     </>

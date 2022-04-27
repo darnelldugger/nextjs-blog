@@ -10,7 +10,7 @@ export default function LinkedIn() {
         href="https://www.linkedin.com/in/darnelldugger/"
       >
         <AiOutlineLinkedin
-          className={utilStyles.headingLg}
+          className={utilStyles.iconXl}
         />
       </a>
     </>
