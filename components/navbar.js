@@ -3,8 +3,8 @@ import utilStyles from '../styles/utils.module.css'
 
 export default function Navbar() {
   return (
-    <nav>
-      D Money
-    </nav>
+    <>
+      <h1 className={styles.navStyle}> D Monney</h1>
+    </>
   )
 }

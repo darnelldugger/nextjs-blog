@@ -1,7 +1,7 @@
 .container {
   max-width: 50rem;
   padding: 0 1rem;
-  margin: 3rem auto 6rem;
+  margin: 1rem auto 6rem;
 }
 
 .header {
@@ -13,9 +13,14 @@
   border-style: solid;
   border-radius: 1rem;
 }
-.nav {
-  background-color: aquamarine;
+.navStyle {
+  background-color: yellow;
+  color: black;
 }
 .backToHome {
   margin: 3rem 0 0;
+}
+
+.resumeContact {
+  display: flex;
 }
