@@ -38,7 +38,7 @@ export default function Layout({ children, home }) {
                 width={144}
                 alt={name}
               />
-              <h1 className={utilStyles.heading2Xl}>{name}</h1>
+              <h1 className={utilStyles.headingXl}>{name}</h1>
               <ul className={utilStyles.listHeader}>
                 <li><Resume/></li>
                 <li><Contact/></li>
