@@ -39,8 +39,8 @@ export default function Layout({ children, home }) {
                 priority
                 src="/images/profile.jpg"
                 className={utilStyles.borderCircle}
-                height={144}
-                width={144}
+                height={200}
+                width={200}
                 alt={name}
               />
               <h1 className={utilStyles.headingXl}>{name}</h1>
@@ -59,8 +59,8 @@ export default function Layout({ children, home }) {
                     priority
                     src="/images/profile.jpg"
                     className={utilStyles.borderCircle}
-                    height={108}
-                    width={108}
+                    height={166}
+                    width={166}
                     alt={name}
                   />
                 </a>
