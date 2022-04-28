@@ -61,6 +61,7 @@
 
 .listItem {
   margin: 0 0 1.25rem;
+  min-height: 165px;
   background-color: yellow;
   padding: 1rem;
   border-radius: .7rem;
