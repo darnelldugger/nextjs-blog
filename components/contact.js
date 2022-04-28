@@ -9,11 +9,14 @@ export default function Contact() {
         className={utilStyles.aColorBlk}
         href="mailto:darnelldugger@gmail.com"
       >
-       <HiOutlineMail
-        className={utilStyles.iconXl}
+        <HiOutlineMail
+          className={utilStyles.iconXl}
         />
+        <p
+        className={utilStyles.iconText}
+        >Email</p>
       </a>
-      
+
     </>
   )
 }

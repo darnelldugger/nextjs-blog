@@ -12,6 +12,9 @@ export default function Resume() {
         <VscFilePdf
         className={utilStyles.iconXl}
         />
+        <p
+        className={utilStyles.iconText}
+        >Resume</p>
       </a>
     </>
   )

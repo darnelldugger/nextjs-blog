@@ -12,6 +12,9 @@ export default function LinkedIn() {
         <AiOutlineLinkedin
           className={utilStyles.iconXl}
         />
+        <p
+        className={utilStyles.iconText}
+        >LinkedIn</p>
       </a>
     </>
   )

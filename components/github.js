@@ -12,6 +12,9 @@ export default function Github() {
         <BsGithub
           className={utilStyles.iconXl}
         />
+        <p
+        className={utilStyles.iconText}
+        >Github</p>
       </a>
     </>
   )

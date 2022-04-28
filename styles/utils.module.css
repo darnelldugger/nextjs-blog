@@ -50,16 +50,12 @@
 .listHeader {
   list-style: none;
   padding: 0;
-  margin: 0;
+  margin: -5px;
   display: flex;
 }
 
 .listHeader li {
   padding: 0 1rem 0 0;
-  
-}
-
-.listHeader li:hover {
   
 }
 
@@ -112,4 +108,10 @@
 
 .iconXl {
   font-size: 2rem;
+}
+
+.iconText {
+  margin-top: 0;
+  font-size: 12px;
+  font-weight: 600;
 }
