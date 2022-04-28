@@ -3,7 +3,7 @@ import utilStyles from '../styles/utils.module.css'
 export default function Skills() {
   return (
     <section className={utilStyles.whiteBackground}>
-      <h2 className={utilStyles.headingLg}>Skills
+      <h2 className={`${utilStyles.headingLg} ${utilStyles.lightText}`}>Skills
       </h2>
       <p>Languages</p>
       <img
@@ -27,20 +27,20 @@ export default function Skills() {
         height={40}
         width={108}
       />
-        <img
-          priority
-          src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white"
-          className={utilStyles.borderCircle}
-          height={40}
-          width={108}
-        />
-        <img
-          priority
-          src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)"
-          className={utilStyles.borderCircle}
-          height={40}
-          width={108}
-        />
+      <img
+        priority
+        src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white"
+        className={utilStyles.borderCircle}
+        height={40}
+        width={108}
+      />
+      <img
+        priority
+        src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)"
+        className={utilStyles.borderCircle}
+        height={40}
+        width={108}
+      />
       <p>Libraries & Frameworks</p>
       <img
         priority
