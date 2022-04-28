@@ -1,5 +1,5 @@
 import utilStyles from '../styles/utils.module.css'
-import { AiOutlineLinkedin } from 'react-icons/ai'
+import { TiSocialLinkedin } from 'react-icons/ti'
 
 
 export default function LinkedIn() {
@@ -9,7 +9,7 @@ export default function LinkedIn() {
         className={utilStyles.aColorBlk}
         href="https://www.linkedin.com/in/darnelldugger/"
       >
-        <AiOutlineLinkedin
+        <TiSocialLinkedin
           className={utilStyles.iconXl}
         />
         <p

@@ -1,5 +1,5 @@
 import utilStyles from '../styles/utils.module.css'
-import { BsGithub } from 'react-icons/bs'
+import { DiGithubBadge } from 'react-icons/di'
 
 
 export default function Github() {
@@ -9,7 +9,7 @@ export default function Github() {
         className={utilStyles.aColorBlk}
         href="https://github.com/darnelldugger"
       >
-        <BsGithub
+        <DiGithubBadge
           className={utilStyles.iconXl}
         />
         <p

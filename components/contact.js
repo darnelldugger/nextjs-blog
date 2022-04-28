@@ -1,6 +1,6 @@
 import utilStyles from '../styles/utils.module.css'
 
-import { HiOutlineMail } from 'react-icons/hi'
+import { MdOutlineMailOutline} from 'react-icons/md'
 
 export default function Contact() {
   return (
@@ -9,7 +9,7 @@ export default function Contact() {
         className={utilStyles.aColorBlk}
         href="mailto:darnelldugger@gmail.com"
       >
-        <HiOutlineMail
+        <MdOutlineMailOutline
           className={utilStyles.iconXl}
         />
         <p
